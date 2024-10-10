@@ -1,0 +1,28 @@
+/***************************************** HEADER */
+
+.header {
+  display: flex;
+  flex-direction: row;
+
+  gap: 25px;
+  margin: 1rem 5rem;
+}
+.header__imagen {
+  width: 10rem;
+  height: 10rem;
+}
+.header__name {
+  width: 80%;
+}
+.header__title {
+  text-align: center;
+  width: 100%;
+  font-size: 5rem;
+  margin-left: 5rem;
+  padding-top: 1rem;
+  color: var(--color-black);
+}
+.header__text {
+  text-align: center;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,31 @@
+/************************************************** MENU */
+.menu {
+  background-color: var(--color-grey);
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+
+.menu__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.menu__item {
+  list-style: none;
+  font-size: 2rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+.menu__item-link {
+  text-decoration: none;
+  color: var(--color-black);
+  transition: letter-spacing 300ms ease-in-out;
+}
+.menu__item-link:hover {
+  color: var(--color-semiBlue);
+  cursor: pointer;
+  letter-spacing: 3px;
+}
