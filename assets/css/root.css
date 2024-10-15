@@ -5,3 +5,9 @@
 @import url(footer.css);
 
 @import url(cards.css);
+
+/* Fuentes Awesome */
+@import url(fontawesome/all.css);
+@import url(fontawesome/brands.css);
+@import url(fontawesome/fontawesome.css);
+@import url(fontawesome/solid.css);
