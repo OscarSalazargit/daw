@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   box-sizing: border-box;
   padding: 0;
@@ -49,4 +50,57 @@
   width: 600px;
   height: 300px;
   border: 2px solid red;
+=======
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.js01__main{
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 100px;
+  border: 2px solid green;
+  margin-bottom: 3.5rem;
+
+}
+.js01__header{
+  grid-column: 1/4;
+}
+.js01__title{
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.left__icons {
+  list-style: none;
+  font-size: 5rem;
+  padding: 15px 0;
+}
+.js01__zoom,
+.js01__logo{
+  list-style: none;
+}
+
+.js01__zoom-i,
+.js01__logo-i{
+  font-size: 5rem;
+  padding: 10px;
+
+}
+
+.js01__canvas{
+  width: 600px;
+  height: 300px;
+  border: 2px solid red;
+>>>>>>> 5bcc306780123468c82a9e1a325469e21377c4ef
 }
