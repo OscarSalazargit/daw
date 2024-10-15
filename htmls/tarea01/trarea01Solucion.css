@@ -139,15 +139,47 @@ body {
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-items: center;
+  background-image: url(assets/img/columpio.PNG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .box {
-  width: 200px;
-  height: 200px;
-  border: 3px solid #7d1d3f;
+  width: 300px;
+  height: 300px;
+  
+  border: 3px solid #7d1d3f; 
   border-radius: 20px;
   text-align: center;
-  line-height: 200px;
+  
   color: #96adc8;
+  overflow: hidden;
+  background-color: rgba(10, 10, 10, 0.2);
+  transition: all 500ms ease-in-out;
+}
+.box:hover{
+  background-color: rgba(10, 10, 10, 0.9);
+}
+.box__header{
+  padding-top: 10px;
+  text-align: center;
+  color: #7d1d3f;
+  text-transform: capitalize;
+  background-color: rgba(210, 210, 210, 0.2);
+}
+.box__title{
+  font-size: 2rem;
+  text-shadow: 0px 0px 5px antiquewhite;
+}
+.box__img{
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+}
+.box__description{
+  color: #7d1d3f;
+  margin-top: 10px;
+
 }
 .iconos {
   display: flex;
