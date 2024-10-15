@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-.js01__main{
+.js01__main {
   display: grid;
   grid-template-columns: 20% auto 20%;
   justify-content: center;
@@ -17,50 +17,51 @@
   padding: 10xp 100px 100px 100px;
   border: 2px solid green;
   margin-bottom: 3.5rem;
-
 }
-.js01__header{
+.js01__header {
   grid-column: 1/4;
 }
-.js01__title{
+.js01__title {
   text-align: center;
   font-size: 3rem;
   text-transform: uppercase;
 }
 
 .left__icons {
+  cursor: pointer;
   list-style: none;
   font-size: 5rem;
   padding: 15px 0;
 }
 .js01__zoom,
-.js01__logo{
+.js01__logo {
   list-style: none;
+  cursor: pointer;
 }
 
 .js01__zoom-i,
-.js01__logo-i{
+.js01__logo-i {
   font-size: 5rem;
   padding: 10px;
-
 }
 
-.js01__canvas{
+.js01__canvas {
   width: 600px;
   height: 300px;
-  border: 2px solid red;
+  border: 3px solid rgb(255, 202, 137);
+  border-radius: 20px;
 }
-.js01__footer{
+.js01__footer {
   grid-column: 1/4;
   width: 100%;
 }
-.js01__colors{
+.js01__colors {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding-top: 5px;
 }
-.js01__color{
+.js01__color {
   cursor: pointer;
   list-style: none;
   border: 2px solid black;
@@ -72,22 +73,22 @@
   color: white;
   font-size: 1rem;
 }
-.verde{
+.verde {
   background-color: green;
 }
-.rojo{
+.rojo {
   background-color: red;
 }
-.amarillo{
+.amarillo {
   background-color: yellow;
 }
-.azul{
+.azul {
   background-color: blue;
 }
-.negro{
+.negro {
   background-color: black;
 }
-.js01__canvas{
+.js01__canvas {
   display: flex;
   align-items: center;
   justify-content: center;
