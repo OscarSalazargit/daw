@@ -9,7 +9,7 @@ body {
 .header {
     display: flex;
     background-color: #fff;
-    gap: 20rem;
+    
     align-items: center;
 }
 
@@ -21,6 +21,8 @@ body {
     font-size: 5rem;
     text-transform: uppercase;
     letter-spacing: 3px;
+    text-align: center;
+    width: 100%;
 }
 
 .nav {
