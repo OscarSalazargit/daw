@@ -1,0 +1,27 @@
+.js02__main {
+  max-width: 80%;
+  margin: 0 auto;
+  border: 2px solid #93a5d5;
+  border-radius: 20px;
+  padding: 2rem;
+}
+.js02__form {
+  font-size: 1.5rem;
+}
+label {
+  font-size: 1.8rem;
+}
+input {
+  font-size: 1.6rem;
+  color: #93a5d5;
+  padding: 5px 15px;
+}
+
+.js02__result {
+  max-width: 80%;
+  margin: 0 auto;
+  border: 5px dashed #93a5d5;
+  border-radius: 20px;
+  padding: 2rem;
+  margin-top: 2rem;
+}

@@ -47,7 +47,23 @@
     </nav>
     <!-- Contenido main-->
     <main class="js02__main">
-
+        <section class="js02__form">
+            <form action="">
+                <div>
+                    <label for="nombre">Escriba su nombre:</label>
+                    <input type="text" id="nombre">
+                </div>
+                <div>
+                    <label for="fnacimiento">Fecha de nacimiento:</label>
+                    <input type="text" id="fnacimiento">
+                    <p>Es necesario que el formato sea <span>AAAA-MM-DD</span> </p>
+                </div>
+                <div>
+                    <input type="button" value="Enviar Mensaje" onclick="leeTexto()">
+                </div>
+            </form>
+        </section>
+        <section class="js02__result" id="result"></section>
     </main>
 
     <!-- Footer -->
