@@ -87,3 +87,8 @@
 .negro{
   background-color: black;
 }
+.js01__canvas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
