@@ -5,9 +5,11 @@
   line-height: 3rem;
   bottom: 0;
   left: 0;
-  background-color: var(--color-grey);
+  background-color: var(--color-o);
 }
 .footer__text {
   font-size: 1.1rem;
   text-align: center;
+  color: var(--color-s);
+  font-size: 1.8rem;
 }
