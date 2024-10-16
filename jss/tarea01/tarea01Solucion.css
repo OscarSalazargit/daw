@@ -95,8 +95,8 @@
 }
 
 .up {
-  font-size: 9rem;
-  background-color: aqua;
+  transform: scale(80%);
+  /* background-color: aqua; */
 }
 .down {
   font-size: 5rem;

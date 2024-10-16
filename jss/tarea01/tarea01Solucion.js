@@ -2,14 +2,14 @@ const canva = document.getElementById("canvas");
 const barco = document.getElementById("barco");
 const camion = document.getElementById("camion");
 const nave = document.getElementById("nave");
-const up = document.getElementById("zoom__up");
-const down  = document.getElementById("zoom__down");
+const zoomUp = document.getElementById("zoom__up");
+const zoomDown  = document.getElementById("zoom__down");
 const icon = document.getElementsByClassName("canva__icon");
-const verde = document.getElementById("color__verde");
-const rojo = document.getElementById("color__rojo");
-const azul = document.getElementById("color__azul");
-const amarillo = document.getElementById("color__amarillo");
-const negro = document.getElementById("color__negro");
+const verde = document.getElementById("verde");
+const rojo = document.getElementById("rojo");
+const azul = document.getElementById("azul");
+const amarillo = document.getElementById("amarillo");
+const negro = document.getElementById("negro");
 
 canva.innerHTML = "<img src='../../assets/img/logoOscar.jpg' alt='Logo de Oscar Salazar' class='header__imagen canva__icon' />";
 
@@ -26,14 +26,24 @@ nave.addEventListener("click", (e) => {
 function zoomInOut(){
   canva.classList.toggle("up");
 }
-up.addEventListener("click", ()=>{
-  console.log("Le dia  up");
-  console.log(icon);
+zoomUp.addEventListener("click", () =>{
   zoomInOut();
 });
 
-verde.addEventListener("click", (e)=>{
-  canva.classList.add("verde");
+verde.addEventListener("click", ()=>{
+  canva.classList.toggle("verde");
+})
+rojo.addEventListener("click", ()=>{
+  canva.classList.toggle("rojo");
+})
+azul.addEventListener("click", () =>{
+  canva.classList.toggle("azul");
+})
+amarillo.addEventListener("click", ()=>{
+  canva.classList.toggle("amarillo");
+})
+negro.addEventListener("negro", ()=>{
+  canva.classList.toggle("negro");
 })
 
 
