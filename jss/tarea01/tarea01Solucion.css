@@ -93,3 +93,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.up {
+  font-size: 9rem;
+  background-color: aqua;
+}
+.down {
+  font-size: 5rem;
+}
