@@ -7,6 +7,7 @@
 }
 .html__cards {
   border-right: 5px dotted var(--color-grey);
+  margin-bottom: 1.5rem;
 }
 .js__cards {
   border-left: 5px dotted var(--color-grey);

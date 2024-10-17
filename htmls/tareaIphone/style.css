@@ -5,3 +5,159 @@
   --color-text-menu: rgb(29, 29, 31);
   --color-boton: rgb(0, 113, 227);
 }
+/* Fuentes */
+@font-face {
+  font-family: "light";
+  src: url(fonts/sf-pro-icons_light.woff2);
+}
+@font-face {
+  font-family: "bold";
+  src: url(fonts/sf-pro-text_bold.woff2);
+}
+@font-face {
+  font-family: "one";
+  src: url(fonts/sf-pro-display_regular.woff2);
+}
+@font-face {
+  font-family: "two";
+  src: url(fonts/sf-pro-display_semibold.woff2);
+}
+@font-face {
+  font-family: "three";
+  src: url(fonts/sf-pro-icons_regular.woff2);
+}
+@font-face {
+  font-family: "four";
+  src: url(fonts/sf-pro-icons_light.woff2);
+}
+@font-face {
+  font-family: "five";
+  src: url(fonts/sf-pro-text_bold.woff2);
+}
+@font-face {
+  font-family: "six";
+  src: url(fonts/sf-pro-text_regular.woff2);
+}
+@font-face {
+  font-family: "seven";
+  src: url(fonts/sf-pro-text_semibold.woff2);
+}
+body {
+  font-family: ligth, sans-serif;
+  font-size: 15px;
+  background-color: var(--color-menu);
+}
+/**HEADER**/
+.header {
+  background-color: var(--color-menu);
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+.header__item {
+  list-style: none;
+  font-size: 12px;
+}
+.header__banner {
+  max-width: 775px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 15px;
+  height: 65px;
+  line-height: 20px;
+}
+.banner__link {
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.bigImage__header {
+  z-index: 10;
+  background-image: url(assets/img/bgIpadMini690.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 690px;
+}
+.bigImage__ipadMini {
+  position: relative;
+  background-color: f5f5f7;
+  margin-bottom: 10px;
+}
+.bigImage__image {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+.ipone__header,
+.bigImage__header {
+  text-align: center;
+  padding-top: 60px;
+}
+.ipone__title,
+.bigImage__title {
+  font-size: 50px;
+  font-family: bold;
+  line-height: 50px;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+.bigImage__subtitle {
+  font-size: 28px;
+  font-family: six;
+  padding-bottom: 5px;
+}
+.bigImage__date {
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: six;
+  color: rgb(137, 137, 142);
+}
+.ipone__btns,
+.bigImage__btns {
+  margin: 15px;
+}
+.ipone__btn,
+.bigImage__btn {
+  border: 1px solid var(--color-boton);
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 5px;
+}
+.btn__blue {
+  background-color: var(--color-boton);
+  color: var(--color-banner);
+  font-weight: 700;
+}
+.btn__white {
+  background-color: var(--color-banner);
+  color: var(--color-boton);
+}
+
+.bigImage__ipone16 {
+  background-color: rgb(0, 0, 0);
+}
+
+.ipone__header {
+  z-index: 10;
+  background-image: url(assets/img/bgipad16pro.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 690px;
+}
+.ipone__title {
+  color: var(--color-menu);
+}
+.btn__white-blue {
+  background-color: transparent;
+  color: var(--color-boton);
+}
