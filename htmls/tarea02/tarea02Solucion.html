@@ -25,33 +25,73 @@
     <link href="../assets/css/brands.css" rel="stylesheet" />
     <link href="../assets/css/solid.css" rel="stylesheet" />
     <!-- CSS reset -->
-    <link rel="stylesheet" href="tarea02reset.css">
+    <!-- <link rel="stylesheet" href="tarea02reset.css"> -->
+    <link rel="stylesheet" href="../../assets/css/reset.css">
     <!-- CSS principal -->
+    <link rel="stylesheet" href="../../assets/css/root.css">
+    <!-- CSS de esta Tarea -->
+    <link rel="stylesheet" href="tarea02reset.css">
     <link rel="stylesheet" href="trarea02Solucion.css">
 
 </head>
 
 <body>
     <header class="header">
-        <img src="../../assets/img/logoOscar.jpg" alt="Imagen del logo mas bonito del mundo">
-        <h1>Tarea 2 EL SNIPPET</h1>
+        <img src="../../assets/img/logoOscar.jpg" alt="Logo de Oscar Salazar" class="header__imagen" />
+        <div class="header__name">
+            <h1 class="header__title">Oscar Salazar Villajos</h1>
+            <p class="header__text">Tarea 2 EL Snippet</p>
+        </div>
     </header>
-
+    <nav class="menu">
+        <ul class="menu__list">
+            <!-- <li class="menu__item">
+        <a class="menu__item-link" href="/">Inicio</a>
+      </li> -->
+            <li class="menu__item">
+                <a class="menu__item-link" href="../tarea02.html">Enunciado Tarea</a>
+            </li>
+            <li class="menu__item"><a class="menu__item-link" href="/">Inicio</a></li>
+        </ul>
+    </nav>
     <div class="content">
-        <nav class="nav">
-            <ul class="menu">
-                <li><a href="../../index.html" class="menu_item">inicio</a></li>
-                <li><a href="../tarea02.html" class="menu_item">Leer enunciado</a></li>
-                <li><a href="#" class="menu_item">Contacto</a></li>
-            </ul>
-        </nav>
         <section class="snippets">
-            <article class="snippets__snippet">
-                <header class="snippet__header">
-                    <h1>Gracias por la paciencia!!</h1>
+            <article class="card__wrap">
+                <h2 class="card__title"><a href="#" class="card__title-link">Tarjeta</a>
+                </h2>
+                <p class="card__description">De esta manera se pueden ver las tarjetas. Los colores se pueden modificar
+                    con el css, asi como los margenes y paddings</p>
+                <video width="640" height="360" class="card__image">
+                    <source src="snippetsTarea2/snippetCard.mp4" type="video/mp4">
+                    <source src="snippetsTarea2/snippetCard.webm" type="video/webm">
+                    <p>Tu navegador no admite la etiqueta de video.</p>
+                </video>
+                <img src="" alt="Imagen de la Tarjeta">
+                <footer class="card__footer">
+                    <p class="card__date">20/10/2024</p>
+                </footer>
+            </article>
+
+            <article class="description">
+                <header class="description__header">
+                    <h2 class="description__title">Como funciona este SNIPPER</h2>
                 </header>
-                <div class="snippet__description">En na esta esto funcionando</div>
-                <div class="snippet__video"><video src=""></video></div>
+                <section class="description__description">
+                    <p class="description__text">
+                        Este es un script para poder insertar cards basicas para los trabajos de html y css. Se muestra
+                        como en el mismo codigo generado cortarlo y montarlo en dos archivos uno para el html y el otro
+                        con el css.
+                    </p>
+                    <video controls class="description__video">
+                        <source src="snippetsTarea2/snippetCard.mp4" type="video/mp4">
+                        <source src="snippetsTarea2/snippetCard.webm" type="video/webm">
+                        <p>Tu navegador no admite la etiqueta de video.</p>
+                    </video>
+                    <button class="btn__json"><a class="btn__link" href="snippetsTarea2/html.json"
+                            target="_blank">Archivo
+                            json</a></button>
+
+                </section>
             </article>
         </section>
     </div>

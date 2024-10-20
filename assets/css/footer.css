@@ -1,10 +1,11 @@
 /************************************************** FOOTER */
 .footer {
   position: fixed;
-  width: 100%;
-  line-height: 3rem;
   bottom: 0;
   left: 0;
+  width: 100%;
+  line-height: 3rem;
+  word-spacing: 20px;
   background-color: var(--color-o);
 }
 .footer__text {
