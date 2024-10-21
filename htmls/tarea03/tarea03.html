@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="tarea03.css" />
+    <script src="tarea03.js" defer></script>
+    <title>Tarea PHP</title>
+  </head>
+  <body>
+    <header class="header__container">
+      <img
+        src="assets/img/logoOscar.jpg"
+        alt="Oscar Salazar"
+        class="header__logo"
+      />
+      <h1 class="header__title">Tarea Video progress on scroll</h1>
+    </header>
+    <nav class="menu__container">
+      <ul class="menu__superior">
+        <li class="menu__item">
+          <a href="#" class="menu__item-link">Inicio</a>
+        </li>
+        <li class="menu__item">
+          <a href="../" class="menu__item-link">Anterior</a>
+        </li>
+        <li class="menu__item"><a href="#" class="menu__item-link">X</a></li>
+      </ul>
+    </nav>
+    <main class="main__container">
+        <!-- Video con mov -->
+        <div id="set-height"></div>
+        <p id="time"></p>
+        <video id="v0" tabindex="0" autobuffer="autobuffer" preload="preload">
+          <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src="../tarea02/snippetsTarea2/snippetCard.mp4"></source>
+          <!-- src="https://www.apple.com/media/us/mac-pro/2013/16C1b6b5-1d91-4fef-891e-ff2fc1c1bb58/videos/macpro_main_desktop.mp4" -->
+        </video>
+
+
+    </main>
+    <footer class="footer__container">
+      <p class="footer__text">
+        Oscar Salazar &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </p>
+    </footer>
+  </body>
+</html>
+
+
+
+
+  
