@@ -1,77 +1,102 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- META -->
     <meta property="og:title" content="Oscar github website" />
     <meta property="og:type" content="education and practices" />
-    <meta property="og:url" content="https://OscarSalazargit.github.io/oscar/" />
-    <meta property="og:image" content="https://OscarSalazargit.github.io/oscar/assets/img/logoOscar.jpg" />
-    <meta property="og:description" content="Este contenido es para hacer practicas de codigo html css y javaScript" />
+    <meta
+      property="og:url"
+      content="https://OscarSalazargit.github.io/oscar/"
+    />
+    <meta
+      property="og:image"
+      content="https://OscarSalazargit.github.io/oscar/assets/img/logoOscar.jpg"
+    />
+    <meta
+      property="og:description"
+      content="Este contenido es para hacer practicas de codigo html css y javaScript"
+    />
     <meta property="og:image:width" content="160" />
     <meta property="og:image:height" content="160" />
     <!-- Favicon -->
-    <link rel="shortcut icon" href="../../assets/favicon/favicon.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
     <!-- Estilos -->
     <link rel="stylesheet" href="../../assets/css/root.css" />
-    <link rel="stylesheet" href="tarea02Solucion.css">
+    <link rel="stylesheet" href="tarea02Solucion.css" />
     <!-- javaScript -->
     <script src="tarea02Solucion.js" defer></script>
     <title>Oscar Salazar Villajos</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <img src="../../assets/img/logoOscar.jpg" alt="Logo de Oscar Salazar" class="header__imagen" />
-        <div class="header__name">
-            <h1 class="header__title">Oscar Salazar Villajos</h1>
-            <p class="header__text">Tarea 1 del Tema 3</p>
-        </div>
+      <img
+        src="../../assets/img/logoOscar.jpg"
+        alt="Logo de Oscar Salazar"
+        class="header__imagen"
+      />
+      <div class="header__name">
+        <h1 class="header__title">Oscar Salazar Villajos</h1>
+        <p class="header__text">Tarea 1 del Tema 3</p>
+      </div>
     </header>
     <nav class="menu">
-        <ul class="menu__list">
-            <!-- <li class="menu__item">
+      <ul class="menu__list">
+        <!-- <li class="menu__item">
         <a class="menu__item-link" href="/">Inicio</a>
       </li> -->
-            <li class="menu__item">
-                <a class="menu__item-link" href="../../index.html">Inicio</a>
-            </li>
-            <li class="menu__item"><a class="menu__item-link" href="../tarea02.html">JS</a></li>
-        </ul>
+        <li class="menu__item">
+          <a class="menu__item-link" href="../../index.html">Inicio</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__item-link" href="../tarea02.html">JS</a>
+        </li>
+      </ul>
     </nav>
     <!-- Contenido main-->
     <main class="js02__main">
-        <section class="js02__form">
-            <form action="">
-                <div>
-                    <label for="nombre">Escriba su nombre:</label>
-                    <input type="text" id="nombre">
-                </div>
-                <div>
-                    <label for="fnacimiento">Fecha de nacimiento:</label>
-                    <input type="text" id="fnacimiento">
-                    <p>Es necesario que el formato sea <span>AAAA-MM-DD</span> </p>
-                </div>
-                <div>
-                    <input type="button" value="Enviar Mensaje" onclick="leeTexto()">
-                </div>
-            </form>
-        </section>
-        <section class="js02__result" id="result"></section>
+      <section class="js02__form">
+        <form action="">
+          <div>
+            <label for="nombre">Escriba su nombre:</label>
+            <input type="text" id="nombre" />
+          </div>
+          <div>
+            <label for="fnacimiento">Fecha de nacimiento:</label>
+            <input type="text" id="fnacimiento" />
+            <p>Es necesario que el formato sea <span>AAAA-MM-DD</span></p>
+          </div>
+          <div>
+            <input type="button" value="Enviar Mensaje" onclick="leeTexto()" />
+          </div>
+        </form>
+      </section>
+      <section class="js02__result" id="result">
+        <h2 class="edad"></h2>
+      </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-        <p class="footer__text">Oscar &copy;
-            <script>document.write(new Date().getFullYear());</script>
-        </p>
+      <p class="footer__text">
+        Oscar &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </p>
     </footer>
-</body>
-
+  </body>
 </html>
