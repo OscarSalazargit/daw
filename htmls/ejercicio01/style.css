@@ -83,3 +83,29 @@
     letter-spacing: 2px;
     word-spacing: 10px;
   }
+
+
+  /*Estilos del gradiente*/
+  .pruebas{   
+      
+      margin: 0 auto;
+      display: grid;
+      place-items: center;
+      background: #222;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    
+  }
+  .module-border-wrap {
+    max-width: 250px;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, red, purple);
+    padding: 3px;
+  }
+  
+  .module {
+    background: #222;
+    color: white;
+    padding: 2rem;
+  }
