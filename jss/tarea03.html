@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="tarea03/tarea03.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__title">Unidad 3 Tarea 3</h1>
+    </header>
+    <main class="main">
+        <section class="main__enunciado">
+            <h2 class="main__title">Hacer :</h2>
+            <p class="main__title"> Mostrar la fecha actual y cuantos días han pasado desde  el día que terminaba el mundo según los mayas (21-11-2012). </p>
+
+            <p class="main__title"> Mostrar la información bien formateada pintando los datos en un h2 que muestre la fecha actual con el formato DD-MM-AAAA y también nos indique el día de la semana en el que nos encontramos.</p>
+                
+            <p class="main__title">   Los días  que han pasado desde la fecha del fin del mundo mostrarlos en otro h2.</p>
+                
+            <p class="main__title">   Utilizar la propiedad innerHTML para mostrar la información en el documento html.</p>
+                
+                 
+        </section>
+        <section class="result" id="result">
+            <h2 class="result__title">
+                Resultado del codigo:
+            </h2>
+            <article class="result__solution" id="result__solution">
+                <p id="resultado">El resultado</p>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">Oscar &copy
+            <script>document.write(new Date().getFullYear());</script>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+
+<!-- estilos -->
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: gray;
+    }
+
+    .header {
+        background-color: rgb(30, 30, 30);
+        color: wheat;
+        border-bottom: 3px solid gray;
+    }
+
+    .header__title {
+        text-align: center;
+        font-size: 5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .main {
+        margin: 0 auto;
+        min-height: 800px;
+        width: 80%;
+        background-color: rgb(30, 30, 30);
+        color: gray;
+        padding: 2rem;
+        border-radius: 10px;
+    }
+
+    .main__enunciado {
+        border: 2px solid gray;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+
+    .main__title {
+        font-size: 2rem;
+    }
+
+    /* RESUTADO */
+    .result {
+        width: 80%;
+        font-size: 1.5rem;
+        padding: 5rem;
+    }
+
+    .result__title {
+        font-size: 2.5rem;
+        color: whitesmoke;
+        margin-bottom: 1rem;
+    }
+
+    .result__solution {
+        color: aliceblue;
+    }
+
+    .footer {
+        position: fixed;
+        padding-bottom: 1rem;
+        bottom: 0;
+        left: 0;
+        height: 5rem;
+        border-top: 2px solid whitesmoke;
+        background-color: gray;
+        width: 100%;
+    }
+
+    .footer__text {
+        text-align: center;
+        line-height: 2.5rem;
+        font-size: 2rem;
+    }
+</style>
+
+<!-- javascript -->
+<script>
+    const resultado = document.getElementById("result__solution");
+    resultado.innerHTML = "<p>Resultado</p>";
+</script>
