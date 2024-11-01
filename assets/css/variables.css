@@ -14,4 +14,5 @@
   --color-v: #aba597;
   --color-S: #222222;
   --color-o: #93a5d5;
+  --degradado-titulos: linear-gradient(94deg, #0090F7, #BA62FC, #F2416B, #F55600);
 }
